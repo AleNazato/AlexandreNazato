@@ -1,0 +1,25 @@
+.hero {
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    background-image: url(./Imagens/img1-1.jpg); /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  .hero-title {
+    background-color: rgba(167, 204, 237, 0.7);
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+  }
+  .hero-title h1 {
+    color: #304d6dff;
+    font-size: 4.5em;
+  }
+  .hero-title h2 {
+    color: #545e75ff;
+  }

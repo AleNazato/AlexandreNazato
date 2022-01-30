@@ -1,0 +1,28 @@
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 3vw;
+  }
+  .cards-container .grow {
+    height: 370px;
+    width: 400px;
+    position: relative;
+  }
+.cards-container .grow:hover
+{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+  .cards-container .grow .card-footer {
+    position: relative;
+    height: 15%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    top: -10px;
+    font-weight: bold;
+  }
+ 

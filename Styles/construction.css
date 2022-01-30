@@ -1,0 +1,10 @@
+.construction {
+height: 100vh;
+background-color: lightgray;
+display: flex;
+align-items: center;
+background-image: url(./Imagens/construcao.png); /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
